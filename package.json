@@ -1,0 +1,16 @@
+{
+  "name": "instabackend",
+  "version": "1.0.0",
+  "description": "this is my first own project which i am going to build from scratch to full stack ..",
+  "license": "ISC",
+  "author": "Ajay Prakash Mishra",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": ""
+  },
+  "dependencies": {
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
