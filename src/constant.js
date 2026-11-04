@@ -1,2 +1,2 @@
-export const Db_Name = "instaVideos" ;
+export const DB_NAME = "instaVideos" ;
 
