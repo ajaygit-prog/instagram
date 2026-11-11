@@ -1,11 +1,10 @@
 import dotenv from 'dotenv' 
 
-import {app} from './app.js'
-import { connectDb } from './db/connectdb.js'
-
 dotenv.config({
     path : './.env'
 })
+const {app} = await import("./app.js");
+const {connectDb}= await import("./db/connectdb.js")
 
 connectDb()
 .then(()=>{
